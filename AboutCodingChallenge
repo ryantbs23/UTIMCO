@@ -1,0 +1,82 @@
+About this Exercise
+This coding “problem” is intentionally very simple. We take for granted that you can decompose problems, devise algorithms, and write code. This exercise is more about conveying your individual coding style and how you deliver your work product to your teammates.
+Problem
+Given a JSON string which describes a menu, calculate the SUM of the IDs of all "items", as long as a "label" exists for that item.
+Input
+Your program should somehow take a file (or path to a file) as input:
+Example Input File:
+[
+ {
+    "menu":{
+       "header":"menu",
+       "items":[
+          {
+             "id":27
+          },
+          {
+             "id":0,
+             "label":"Label 0"
+          },
+          null,
+          {
+             "id":93
+          },
+          {
+             "id":85
+          },
+          {
+             "id":54
+          },
+          null,
+          {
+             "id":46,
+             "label":"Label 46"
+          }
+       ]
+    }
+ },
+ {
+    "menu":{
+       "header":"menu",
+       "items":[
+          {
+             "id":81
+          }
+       ]
+    }
+ },
+ {
+    "menu":{
+       "header":"menu",
+       "items":[
+          {
+             "id":70,
+             "label":"Label 70"
+          },
+          {
+             "id":85,
+             "label":"Label 85"
+          },
+          {
+             "id":93,
+             "label":"Label 93"
+          },
+          {
+             "id":2
+          }
+       ]
+    }
+ }
+]
+All IDs are integers between 0 and 100. The menu can be of any length.
+Sample Output:
+46
+0
+248
+Additional Instructions & Tips
+Post your solution to GitHub
+Choose your weapon:
+Use whatever platform, tools, language(s) and coding environment you like.
+Command-line apps, Web apps, APIs, and fat-client solutions are all equally valid, so choose whatever you are most comfortable with (or whichever best showcases your talents)
+Write testable code and include tests in your solution
+Make sure your solution is easy to build, run, test, and deploy (instructions are always nice. TIP: Include a useful Readme)
