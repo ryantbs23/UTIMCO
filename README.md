@@ -1,2 +1,0 @@
-# UTIMCO
-Coding Challenge
